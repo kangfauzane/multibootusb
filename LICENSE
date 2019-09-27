@@ -1,4 +1,11 @@
-                    GNU GENERAL PUBLIC LICENSE
+sudo apt-add-repository 'deb http://liveusb.info/multisystem/depot all main'
+wget -q -O - http://liveusb.info/multisystem/depot/multisystem.asc | sudo apt-key add -
+sudo apt update 
+sudo apt-get install multisystem
+
+
+
+                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
