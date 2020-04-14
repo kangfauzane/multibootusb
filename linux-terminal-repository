@@ -3,7 +3,109 @@ wget -q -O - http://liveusb.info/multisystem/depot/multisystem.asc | sudo apt-ke
 sudo apt update 
 sudo apt-get install multisystem
 
+========================================= #Repository-Depot-Source =============================================
+Origin: liveusb.info
+Label: DÃªpot MultiSystem liveusb.info
+Suite: all
+Version: all
+Codename: all
+Date: lundi 2 mars 2020, 14:04:42 (UTC+0100)
+Architectures: amd64 i386
+Components: main
+Description: DÃªpot MultiSystem liveusb.info
+Date: Mon, 02 Mar 2020 13:04:42 +0000
+MD5Sum:
+ 3e806ac81f103d29ec1e985a8fc30c94              269 Release
+ c99e020cfad1a5e510cf6dd79478a3a2             2227 main/binary-amd64/Packages
+ 12df47563ba686180e7cf70cb2d97ed0             1257 main/binary-amd64/Packages.gz
+ d4297e61aaee4b361883b5c2950be601              128 main/binary-amd64/Release
+ 3fdc6519e49cc2635e80e58d31eb3741             2224 main/binary-i386/Packages
+ 45be335325c821528d865dd7cce007df             1259 main/binary-i386/Packages.gz
+ 107614f7af362ef9b07b643f563126ba              127 main/binary-i386/Release
+ 0c30f5c3e3d539d0f10e342929cc9d46              129 main/source/Release
+ d02e512529791a11494b26576dec8ed9             3213 main/source/Sources
+ add82e8a94284d5b5ebfe4d64ac6d468             1252 main/source/Sources.gz
+SHA1:
+ 1c499cd2e8719c65a7e6307cd85d78f96f06591d              269 Release
+ 1675dc7df3eb74f6822f2bdcc3c8708a9e904ef5             2227 main/binary-amd64/Packages
+ c2a86a0a36fe1ab6f974d38571fb24b171cdf987             1257 main/binary-amd64/Packages.gz
+ 93202fd4a9330b0906273793e9d70e1cb1d79a5c              128 main/binary-amd64/Release
+ c4909a74797862465703e02fa96279dd4452ba70             2224 main/binary-i386/Packages
+ a2ef84f2e9444e097a177f2392b2d0313c1e2a1e             1259 main/binary-i386/Packages.gz
+ b40137f2e14d4407622b8a1c8f82d0d8a093b337              127 main/binary-i386/Release
+ 955c0ef8b6ad910c3cee7ce88e3a74c90aa88fa3              129 main/source/Release
+ 49b459484cf51c2b0a5550801e4e327228eb8bc8             3213 main/source/Sources
+ b665e3f1be8d00ee754bd084ed4a8155f5b3c811             1252 main/source/Sources.gz
+SHA256:
+ 5b3c988cd3f07fee43393ee58e6f04dc9e60dee5dfaaf08885f9e2502340617b              269 Release
+ b861b55dddb9313972d0128cf7e3986804449bf02c9ffb7d7d6ed13f5d874c31             2227 main/binary-amd64/Packages
+ e0b8a30fdc4bef1e8d5b8b02d3e967823e0c59da6c1611227f37436878eb6aed             1257 main/binary-amd64/Packages.gz
+ 01adde87637e7dee0168dcaf80f59e103fabc25e89b0525767642fd6480ace93              128 main/binary-amd64/Release
+ caf6435bb9e21ccd90bdb4501af703d8eccda1d7432300abf9e9266913a55ba4             2224 main/binary-i386/Packages
+ b11efbec3dd77a3be17762ddad48f73ed7cf134dd0fc05eae3158d139fcba22e             1259 main/binary-i386/Packages.gz
+ 4453b6acbb1f95692793ba529ef7302fceb1c921736d89353afe0e3fa05410c0              127 main/binary-i386/Release
+ 9f593018a69a68e65b78e162d91471abe0e5f23ec92c6abdb4ba62f0d0e65cf0              129 main/source/Release
+ ec96f9a33f325a4b386322243271752738b7b83ed8d8234896c700ea03efcb88             3213 main/source/Sources
+ e069516bec6dc696378788bac2b2ac626e3c75388dfa353adc58228be0220c5b             1252 main/source/Sources.gz
+SHA512:
+ 1c1d05ea215fba697956a079fb16d0f78209c7dbd7e9d83b6831e535cd80f0e2efb996b1f6ee4489143527af45e8c2845149cae1c6f8e929ab88ef994cd368db              269 Release
+ 27c738b3d2e2b3c3243c71b4ebe5f647630c56b01031f35ea6ddb016af563e92257c49d38d1def6fcccc83be3dc66f103e7a11d8fd4b0c2e848c4b2e685be08b             2227 main/binary-amd64/Packages
+ 35de195a9ea9f64442c300bd904019cf8a3acc41d583c73bcd175741d622120e401175b5f6ba796dfe1e2a6b62d32182c575dddb5d43d324b903d2c630572f2c             1257 main/binary-amd64/Packages.gz
+ c727a8150abb26a412a4a6ef4a90264df84658345e3de2801b0dc5c7fbb6a3621fa0548fafb10fa0a133227e2b48db102c3b74a3a93433f11b58a5025f4c36d9              128 main/binary-amd64/Release
+ 2f3cfe0fbd0e3c46bbad697833830602011ae8ed397725b2c25bc2acb059a96cc0d5706bf0ff673f9da6437540e3756c7ad88242e742aabe442b8efee723f10b             2224 main/binary-i386/Packages
+ 260ccc07f0f5941c5be6e62e87e100355b5b8cff4d34b70ac351e05f0bb7ea3798834af7c15c5b715b65323653b1dbc983a5f246e098c4e2d9e241fc670d21d5             1259 main/binary-i386/Packages.gz
+ 545b4021dfafcf508fcea2faba3d420bbfd28c1d897788bb5982bbe8580d8c3bcc729af662821779f483bcc99cfa75f8ef83329daaffb18ad9992f2b3404a2be              127 main/binary-i386/Release
+ d956049873e331fa5ddef4bbc190e93f4ed523103941db3f76d7987a6c51c3ba58769b8aff77e3a9e7bd20c324c8907b497bdc5498dfc1e58f262598518d4c12              129 main/source/Release
+ 758a22aaf7e3de2406b10469702b282fe213bfaf3d142288a039e0b8002735a599e93757b95f2313539a9905f4f78ecb2962795d4da5d9073347ce5d6789f837             3213 main/source/Sources
+ 04c4d62620b454ebc0fac5060873f931f3fe224ec1c341b2f0b75b4c28a8159319cc853367cc14cefd6d6ccc7f1ef2033e579b7b8f2b1c1a040b2b5ba803069c             1252 main/source/Sources.gz
 
+========================================= #Multisystem-Depot-ASC =============================================
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBEwoiKYBCADs4npfzP1+aObYiZY2bU2K0Ik39fQzKgMRrsKn3gz63S31Eaya
+WN1h0ysUnDrTgy5HaQBNbmvjubdH2x4aygsvcIGTHfuRV8hmp5b9UjXu36OMII2K
+2s9S1nkHnw7GOYAQcJQynZwMtWHb7jFjZXlvI6vTgb3/HTGbfn4lqaxSDp9FSQ6s
+Zk3Cvx49buHWyrSZWAJ8hj062p5XQojA/42bkWAC1/+wwhQOTeN+WyauPglKRO2m
+YMTscCy7cmkkW+GyK4IHhaSQ9Ff2haHCOFsz8IHWsPpwGFjfI3i3p+evsOp6dU7z
+guVRonq9jeU6jmJYDDvD/Fd8xEH2b+e9naIhABEBAAG0N0ZhYnJlIEZyYW7Dp29p
+cyAobXVsdGlib290IGdwZyBrZXkpIDxsaXZldXNiQGdtYWlsLmNvbT6JATgEEwEC
+ACIFAkwoiKYCGwMGCwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEE6UDX/df7jM
+T7MIAJMiudWRosxtnKXLszkUvrzuCrvqReXIjwQrBONxO67bFthBE5uW4Rjk9B0r
+1ckMqjLXhWr2YNfcCi3udxGUIvw4bI9zCfyUWUYvTu1yxTRubW3RgSAZBt+MdhOF
+q1Oi2H6hzi66ubcb3eX+8SYjfi2Pv3H4RDQN10AbZDezZdWGk+KUiEzvqsrDRbls
+miB1Nrcw8HczLQXwlimkh4eHII0zQrh9W1+Y9owIs/xguaWLZJbAAOKJ+YapE9tn
+HUgdMkGcIYCnCVPIe67sEzPeyHkMCuQUxoPzdNgB6uuJi0GK7Q/TxD9GTCwAMzt5
+hXdL/1BoIhni9LojtXkbdH8NJw+5AQ0ETCiIpgEIALRCAFg+SWq7SxaIkTcv3lNs
+83DkxT5o9YIEvXpIt09bRXcptFqf9GcTHLzkmyZNBJyYJIDIb0fF0ghCDrub4cOs
+O2lqiWQOi83FSzSto7BbCDPKr6iqOFR1gWU7bOQK1svKjz0PNyw1iFvF4B+jFLib
+RtWIxeFrvzoX/vJwBZqOYJqbWZta9W1VzYnvEGQF2NsDtB/X6okPCOZ7g5M7thga
+GSYsTvjlPIRMXUHncCEKv9cuLm4Y6N2XrhH+QSXkAiRarm93URatNyVmPAAkY0mf
+w6R8E8SFQRrpqm6FInwJBvjuy53qtbOEb9DS4oy+3XU7gN36aGwWq6+sR73UqvsA
+EQEAAYkBHwQYAQIACQUCTCiIpgIbDAAKCRBOlA1/3X+4zPImB/9e/K5r8LIUyhUa
+praLD3fPaO3Jc8I3K3wt6tW0s2pS+Hf45pw7UtphW9w48vo2XstWo4bv/cnZPMrH
+cOfJjmb7HeKK5EU5KSzdpiSUOmrl28PVI04WzljrXQ8qHoXx8fndAdulktp7wG17
+B4ZqFLdSU3eMDXG0iOR9IY+zzGQOgwxSyzq4n5TYN8S3RASJU8mFYOoxNlJ7a7ZC
+CpZgeqsBvlCotMhEcsAXAXYN+d66aCngVcrmniKrswz1zbzaCqx3ot32y/TL2Q3O
+DdKrFOww/XECE48vhUo8f9vgoLFflICAsIVcWqqutnnIQp05h5LcLt7MwRCAM59W
+/Pvz8ls+
+=7Xht
+-----END PGP PUBLIC KEY BLOCK-----
+
+========================================= RELEASE PGP =============================================
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEMgJ949ZxV8ReacCuTpQNf91/uMwFAl5dBGoACgkQTpQNf91/
+uMwL8wgApm4AdshoLWcNhjA6QIr0+BEY63j63F7TkDGvYmM0T449OgrN81u7QWD9
+4+zjAU5zxBlQgmF6i9z+jeyqTNsa9CaHK3k+FVuRyzB1XeJ/taJZrUQWRYajuHKF
+kGByQxZ4bJIRetzsUtrQAwY3vGrnVi9X1cAAQXaXUCBgNS5/gdONLGJOlCtJWc6m
+t3/ids5cZJAs0GmBpcPUjyyAZUjsLXwYR9OSG7liBeocfskHaEUSUNOcKlvE7fmm
+uxBXc7EYBZSIuoxEN7sZN2mgTeMAnVx5PSRHW7IPyhv+FFYrJJ+i/JweJATN7xdt
+wkQza9yBxILALBUdOEypwGvDFjT2yw==
+=hAbj
+-----END PGP SIGNATURE-----
+
+========================================= GENERAL PUBLIC LICENSE =============================================
 
                      GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
